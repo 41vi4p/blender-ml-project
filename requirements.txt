@@ -1,0 +1,7 @@
+numpy
+torch
+transformers
+Pillow
+# blender-python
+opencv-python
+pytest

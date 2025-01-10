@@ -1,0 +1,17 @@
+model:
+  name: "huggingface/your-model-name"
+  version: "latest"
+  parameters:
+    input_size: [256, 256]
+    output_size: [512, 512]
+    num_inference_steps: 50
+
+data:
+  image_path: "data/images/"
+  output_path: "data/outputs/"
+  batch_size: 4
+
+render:
+  resolution: [1920, 1080]
+  output_format: "PNG"
+  render_engine: "CYCLES"
