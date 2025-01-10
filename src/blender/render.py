@@ -3,7 +3,7 @@
 import bpy
 
 class Renderer:
-    def __init__(self, output_path):
+    def __init__(self, output_path = "/content/blender-ml-project/data/output"):
         self.output_path = output_path
 
     def render(self, model_path):

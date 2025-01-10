@@ -1,5 +1,5 @@
 class DataLoader:
-    def __init__(self, image_paths='/home/davidporathur/Documents/python-learn/blender-ml-project/data'):
+    def __init__(self, image_paths='/content/blender-ml-project/data/input/images'):
         self.image_paths = image_paths
 
     def load_images(self):
